@@ -82,6 +82,24 @@
 
 #Questão4
 
+# tamanho = int(input("Digite o tamanho das listas "))
+# lista1 = []
+# lista2 = []
+# for i in range(tamanho):
+#     valor = input("Digite um número")
+#     lista1.append(valor)
+
+
+# for i in range(tamanho):
+#     valor = input("Digite um número")
+#     lista2.append(valor)
+
+
+# lista3 = lista1+ lista2
+# print(f"lista1 = {lista1}")
+# print(f"lista2 = {lista2}")
+# print(f"lista3 = {lista3}")
+
 
 
 # ---- QUESTÃO 5 ----
@@ -103,3 +121,6 @@
 #media = (maior + menor) / quant
 
 #print(f"\nSeu maior valor é: {maior} \nSeu menor valor é: {menor} \nSua média é: {media:.2f}")
+
+#Questão6
+
