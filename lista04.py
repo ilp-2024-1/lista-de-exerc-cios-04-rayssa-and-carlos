@@ -124,3 +124,47 @@
 
 #Questão6
 
+# size = int(input("Digite o tamanho das listas "))
+# listanumber = []
+# listaString = []
+
+# for i in range(size):
+#     numList = int(input("Digite um número"))
+#     listanumber.append(numList)
+
+# for i in range(size):
+#     string = (input("Digite uma string"))
+#     listaString.append(string)
+
+# for i in range(size):
+#     if listanumber[i]%2 != 0:
+#         listanumber[i] = listaString[i]
+   
+
+# print(listanumber)
+
+#Questão7
+
+# size = int(input("Digite um número "))
+# valores = []
+# media = 0
+
+# for i in range(size):
+#   num = int(input("Digite um número"))
+#   valores.append(num)
+
+
+# for i in valores:
+#     media += i
+
+# valorMedia = media/size
+
+# menorValor = min(valores)
+# maiorValor = max(valores)
+
+# print(menorValor)
+# print(maiorValor)
+# print(valorMedia)
+# print(media)
+
+#Questão8
