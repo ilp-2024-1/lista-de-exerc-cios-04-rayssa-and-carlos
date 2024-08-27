@@ -168,3 +168,26 @@
 # print(media)
 
 #Questão8
+
+# strNum = input("Digite uma sequencia de números inteiros")
+
+# lista = []
+
+# num = strNum.split(" ")
+
+# lista = list(map(int, num))
+# print(num)
+# print(lista)
+
+#Questão9
+
+# strNum = input("Digite uma sequencia de números inteiros")
+
+#Questão10
+
+for i in range(9):
+    num = int(input("Digite um valor"))
+
+for i in range(3):
+    for j in range(3):
+        
