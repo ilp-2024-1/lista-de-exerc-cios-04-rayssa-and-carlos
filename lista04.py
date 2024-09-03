@@ -180,14 +180,34 @@
 # print(lista)
 
 #Questão9
+# Escreva um programa que receba como entrada uma string várias palavras separadas
+# por espaço. O programa deverá verificar e apresentar a quantidade de ocorrência de
+#
+# cada palavra no texto repassado como entrada para o programa. Os sinais de pontu-
+# ação não devem ser contabilizados, como por exemplo “.” Ou “,”.
 
-# strNum = input("Digite uma sequencia de números inteiros")
+contagem = 0
+
+palavras = input("Digite um texto")
+
+lista = palavras.split(" ")
+
+listaTratadas = []
+for palavras in lista:
+    if "," in palavras or "." in palavras:
+        listaTratadas += [palavras[:-1]]
+listaUnica = []
+for i in listaTratadas:
+    if i not in listaTratadas:
+        listaUnica += [i]
+print(listaUnica)
+        
 
 #Questão10
 
-for i in range(9):
-    num = int(input("Digite um valor"))
+# for i in range(9):
+#     num = int(input("Digite um valor"))
 
-for i in range(3):
-    for j in range(3):
+# for i in range(3):
+#     for j in range(3):
         
